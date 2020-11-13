@@ -1,0 +1,23 @@
+inherited fra03LayoutSTMenu: Tfra03LayoutSTMenu
+  Caption = 'fraLayoutSTop5'
+  DesignerMasterStyle = 3
+  inherited lyBody: TLayout
+    inherited vsContent: TVertScrollBox
+      Viewport.Width = 360.000000000000000000
+      Viewport.Height = 524.000000000000000000
+    end
+    inherited lyContentTopBar: TLayout
+      inherited lbTitle: TLabel
+        TextSettings.Font.StyleExt = {00060000000000000004000000}
+      end
+    end
+  end
+  object mvMenu: TMultiView [3]
+    Mode = Drawer
+    Size.Width = 250.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    TabOrder = 1
+  end
+end

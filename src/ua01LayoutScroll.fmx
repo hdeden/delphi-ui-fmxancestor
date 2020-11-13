@@ -1,0 +1,53 @@
+inherited fra01LayoutScroll: Tfra01LayoutScroll
+  Caption = 'fra01LayoutScroll'
+  ClientHeight = 656
+  DesignerMasterStyle = 3
+  inherited rcBGBody: TRectangle
+    Size.Height = 656.000000000000000000
+  end
+  inherited lyBody: TLayout
+    Size.Height = 656.000000000000000000
+    object vsContent: TVertScrollBox
+      Align = Client
+      Size.Width = 360.000000000000000000
+      Size.Height = 656.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Viewport.Width = 355.000000000000000000
+      Viewport.Height = 656.000000000000000000
+      object rcContentTop: TRectangle
+        Align = Top
+        Corners = [BottomLeft, BottomRight]
+        Fill.Color = claCornflowerblue
+        Size.Width = 355.000000000000000000
+        Size.Height = 200.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        XRadius = 100.000000000000000000
+        YRadius = 100.000000000000000000
+      end
+      object rcContentFooter: TRectangle
+        Align = Top
+        Corners = [TopLeft, TopRight]
+        Fill.Color = claCornflowerblue
+        Position.Y = 460.000000000000000000
+        Size.Width = 355.000000000000000000
+        Size.Height = 200.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        XRadius = 100.000000000000000000
+        YRadius = 100.000000000000000000
+      end
+      object lyContent: TLayout
+        Align = Top
+        Margins.Top = -150.000000000000000000
+        Margins.Bottom = -150.000000000000000000
+        Position.Y = 50.000000000000000000
+        Size.Width = 355.000000000000000000
+        Size.Height = 560.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+      end
+    end
+  end
+end
