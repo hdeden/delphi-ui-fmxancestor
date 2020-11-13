@@ -1,0 +1,15 @@
+inherited fra04LayoutSTMFooter4: Tfra04LayoutSTMFooter4
+  Caption = 'fra04LayoutSTMFooter4'
+  DesignerMasterStyle = 3
+  inherited lyBody: TLayout
+    inherited vsContent: TVertScrollBox
+      Viewport.Width = 355.000000000000000000
+      Viewport.Height = 524.000000000000000000
+    end
+    inherited lyContentTopBar: TLayout
+      inherited lbTitle: TLabel
+        TextSettings.Font.StyleExt = {00060000000000000004000000}
+      end
+    end
+  end
+end
