@@ -9,6 +9,7 @@ inherited fra02LayoutSTop: Tfra02LayoutSTop
     Size.Height = 524.000000000000000000
     inherited vsContent: TVertScrollBox
       Size.Height = 524.000000000000000000
+      OnViewportPositionChange = vsContentViewportPositionChange
       Viewport.Width = 355.000000000000000000
       Viewport.Height = 524.000000000000000000
     end

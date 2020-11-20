@@ -9,7 +9,7 @@ uses
   FMX.Objects, FMX.Layouts, FMX.Controls.Presentation;
 
 type
-  Tfra04LayoutSTMFooter4 = class(Tfra04LayoutSTMFooter)
+  TfrmMain = class(Tfra04LayoutSTMFooter)
   private
     { Private declarations }
   public
@@ -17,7 +17,7 @@ type
   end;
 
 var
-  fra04LayoutSTMFooter4: Tfra04LayoutSTMFooter4;
+  frmMain: TfrmMain;
 
 implementation
 
