@@ -10,8 +10,6 @@ uses
 
 type
   Tfra01LayoutScroll = class(Tfra00LayoutTop)
-    rcContentTop: TRectangle;
-    rcContentFooter: TRectangle;
     vsContent: TVertScrollBox;
     lyContent: TLayout;
   private

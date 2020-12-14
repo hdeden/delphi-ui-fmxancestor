@@ -15,7 +15,7 @@ inherited fra03LayoutSTMenu: Tfra03LayoutSTMenu
   object mvMenu: TMultiView [3]
     Mode = Drawer
     Size.Width = 250.000000000000000000
-    Size.Height = 480.000000000000000000
+    Size.Height = 524.000000000000000000
     Size.PlatformDefault = False
     Visible = False
     TabOrder = 1

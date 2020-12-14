@@ -15,6 +15,8 @@ type
     sbBack: TSpeedButton;
     imglTop: TImageList;
     rcContentTopBar: TRectangle;
+    lyTopBar: TLayout;
+    sbTopBarBack: TSpeedButton;
     procedure vsContentViewportPositionChange(Sender: TObject;
       const OldViewportPosition, NewViewportPosition: TPointF;
       const ContentSizeChanged: Boolean);
@@ -35,6 +37,7 @@ implementation
 procedure Tfra02LayoutSTop.ShowTopBar(IsShow: Boolean);
 begin
   lyContentTopBar.Visible := IsShow;
+  lyTopBar.Visible := not IsShow;
   if IsShow then
     vsContent.Margins.Top := -50
   else
